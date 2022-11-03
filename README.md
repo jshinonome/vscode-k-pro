@@ -155,8 +155,6 @@ There may be a conflict with other extensions. Disable or uninstall them and try
 
 ### Enable Highlight for Attention And TODO of comments
 
-![comment-highlight](assets/demo/comment-highlight.png)
-
 Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>, call `Open Setting(Json)`, and add following configuration.
 
 ```
