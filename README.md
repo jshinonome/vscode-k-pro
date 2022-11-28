@@ -4,7 +4,15 @@
 [![](https://vsmarketplacebadge.apphb.com/downloads/jshinonome.vscode-k-pro.svg?labelColor=651FFF&color=B388FF&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
 [![](https://vsmarketplacebadge.apphb.com/installs/jshinonome.vscode-k-pro.svg?labelColor=651FFF&color=B388FF&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
 
-It is required to purchase a **subscription** for this extension.
+Purchase a **Subscription** to use **k Professional**.
+
+- [For Individual - per user, monthly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-90V85129L8192243VMNSGIJA)
+- [For Individual - per user, yearly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-69E14901CW016915KMNSGFHQ)
+- [For Organization - per user, yearly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0W0141747V722234NMNSGE2A)
+
+The activation key will be sent by email within 2 business days.
+
+## Features
 
 This extension provides k and kdb+\q language support:
 
@@ -39,20 +47,21 @@ See the [change log](https://github.com/jshinonome/vscode-k-pro/blob/master/CHAN
 - To configure globally, type <kbd>ctrl</kbd>+<kbd>,</kbd> to open Settings, filter the configuration by `k-pro` and change the following values.
 - To configure for workspace, type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>, call `Preferences: Open Workspace Settings`, filter the configuration by `k-pro` and change the following values.
 
-| configuration                             | type    | default value                       | description                                |
-| ----------------------------------------- | ------- | ----------------------------------- | ------------------------------------------ |
-| k-lang-server.sourceFiles.globsPattern    | array   | `["**/src/**/*.q","**/src/**/*.k"]` | source folder to be included               |
-| k-lang-server.sourceFiles.ignorePattern   | array   | `["**/build","**/node_modules"]`    | folder to be excluded                      |
-| k-processes.cfg.queryMode                 | string  | `Console`                           | query mode, Console, Grid or Visualization |
-| k-processes.cfg.queryGridDecimals         | number  | `3`                                 | decimals in q grid                         |
-| k-terminal.cfg.qBinary                    | string  | `q`                                 | q executable file or full path             |
-| k-terminal.cfg.envPath                    | string  | `''`                                | environment file relative or absolute path |
-| k-process-explorer.cfg.prevQueryLimit     | string  | `5`                                 | q explorer preview query limit             |
-| k-process-explorer.cfg.autoRefresh        | boolean | `false`                             | q explorer auto refresh                    |
-| k-process-explorer.cfg.excludedNamespaces | array   | `["q","Q","j","o","h"]`             | namespaced to be excluded from q explorer  |
-| k-output.cfg.autoClear                    | boolean | `false`                             | Auto Clear Output                          |
-| k-output.cfg.includeQuery                 | boolean | `false`                             | Include Query in Output                    |
-| k-output.cfg.consoleSize                  | string  | `'50 160'`                          | Console Size for Output                    |
+| configuration                             | type    | default value                       | description                                       |
+| ----------------------------------------- | ------- | ----------------------------------- | ------------------------------------------------- |
+| k-lang-server.sourceFiles.globsPattern    | array   | `["**/src/**/*.q","**/src/**/*.k"]` | source folder to be included                      |
+| k-lang-server.sourceFiles.ignorePattern   | array   | `["**/build","**/node_modules"]`    | folder to be excluded                             |
+| k-processes.cfg.queryMode                 | string  | `Console`                           | query mode, Console, Grid or Visualization        |
+| k-processes.cfg.queryGridDecimals         | number  | `3`                                 | decimals in Grid mode                             |
+| k-terminal.cfg.qBinary                    | string  | `q`                                 | q executable file or full path                    |
+| k-terminal.cfg.envPath                    | string  | `''`                                | environment file relative or absolute path        |
+| k-process-explorer.cfg.prevQueryLimit     | string  | `5`                                 | k process explorer preview query limit            |
+| k-process-explorer.cfg.autoRefresh        | boolean | `false`                             | k process explorer auto refresh                   |
+| k-process-explorer.cfg.excludedNamespaces | array   | `["q","Q","j","o","h"]`             | namespaced to be excluded from k process explorer |
+| k-output.cfg.autoClear                    | boolean | `false`                             | auto clear output                                 |
+| k-output.cfg.ignoreNullReturn             | boolean | `false`                             | ignore null return when using non-console mode    |
+| k-output.cfg.includeQuery                 | boolean | `false`                             | include query in output                           |
+| k-output.cfg.consoleSize                  | string  | `'50 160'`                          | console size for output                           |
 
 ## k-pro Language Server
 
