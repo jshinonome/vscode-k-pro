@@ -4,6 +4,8 @@
 [![](https://vsmarketplacebadge.apphb.com/downloads/jshinonome.vscode-k-pro.svg?labelColor=651FFF&color=B388FF&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
 [![](https://vsmarketplacebadge.apphb.com/installs/jshinonome.vscode-k-pro.svg?labelColor=651FFF&color=B388FF&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
 
+## Subscription
+
 Purchase a **Subscription** to use **k Professional**.
 
 - [For Individual - per user, monthly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-90V85129L8192243VMNSGIJA)
