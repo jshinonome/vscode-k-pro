@@ -8,7 +8,7 @@
 
 - k-pro config: k-output.cfg.ignoreNullReturn, Ignore Null Return When Using Non-Console Mode
 
-## 1.0.3
+## 1.0.6
 
 ### Bug Fixes
 
