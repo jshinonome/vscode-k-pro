@@ -1,8 +1,8 @@
 # k Professional
 
-[![](https://img.shields.io/visual-studio-marketplace/v/jshinonome.vscode-k-pro?labelColor=651FFF&color=B388FF&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
-[![](https://vsmarketplacebadge.apphb.com/downloads/jshinonome.vscode-k-pro.svg?labelColor=651FFF&color=B388FF&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
-[![](https://vsmarketplacebadge.apphb.com/installs/jshinonome.vscode-k-pro.svg?labelColor=651FFF&color=B388FF&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
+[![](https://img.shields.io/visual-studio-marketplace/v/jshinonome.vscode-k-pro?labelColor=4a148c&color=9c27b0&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
+[![](https://img.shields.io/visual-studio-marketplace/i/jshinonome.vscode-k-pro?labelColor=4a148c&color=9c27b0&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
+[![](https://img.shields.io/visual-studio-marketplace/d/jshinonome.vscode-k-pro?labelColor=4a148c&color=9c27b0&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
 
 ## Subscription
 
