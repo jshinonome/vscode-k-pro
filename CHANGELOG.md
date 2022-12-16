@@ -4,6 +4,12 @@
 
 ## 1.0.2
 
-### add
+### Features
 
 - k-pro config: k-output.cfg.ignoreNullReturn, Ignore Null Return When Using Non-Console Mode
+
+## 1.0.3
+
+### Bug Fixes
+
+- upgrade jkdb to return _LOST_CONNECTION_ error if lost connection while querying
