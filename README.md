@@ -55,6 +55,7 @@ See the [change log](https://github.com/jshinonome/vscode-k-pro/blob/master/CHAN
 | k-lang-server.sourceFiles.ignorePattern   | array   | `["**/build","**/node_modules"]`    | folder to be excluded                             |
 | k-processes.cfg.queryMode                 | string  | `Console`                           | query mode, Console, Grid or Visualization        |
 | k-processes.cfg.queryGridDecimals         | number  | `3`                                 | decimals in Grid mode                             |
+| k-discovery-server.cfg.refreshInterval    | number  | `30`                                | Discovery Server Refresh Interval(min)            |
 | k-terminal.cfg.qBinary                    | string  | `q`                                 | q executable file or full path                    |
 | k-terminal.cfg.envPath                    | string  | `''`                                | environment file relative or absolute path        |
 | k-process-explorer.cfg.prevQueryLimit     | string  | `5`                                 | k process explorer preview query limit            |

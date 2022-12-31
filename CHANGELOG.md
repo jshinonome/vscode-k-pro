@@ -13,3 +13,11 @@
 ### Bug Fixes
 
 - upgrade jkdb to return _LOST_CONNECTION_ error if lost connection while querying
+
+## 1.0.8
+
+### Features
+
+- discovery server: retain connections and remove processes
+- discovery server: auto refresh discovery server
+- discovery server: auto disconnect prod discovery server
