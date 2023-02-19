@@ -1,4 +1,12 @@
+## 1.1.1
+
+### Bug Fixes
+
+- q notebook: text output duplicates
+
 ## 1.1.0
+
+### Features
 
 - grid: enable pop up for long text column
 - grid: support lambda and projection
