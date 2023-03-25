@@ -1,3 +1,10 @@
+## 1.1.2
+
+### Features
+
+- q syntax: support multiple lines string
+- discovery server: icon and require authentication option
+
 ## 1.1.1
 
 ### Bug Fixes
