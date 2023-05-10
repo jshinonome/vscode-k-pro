@@ -1,3 +1,15 @@
+## 1.1.3
+
+### Bug Fixes
+
+- fail to start language server
+
+## 1.1.3
+
+### Bug Fixes
+
+- fail to enable TLS
+
 ## 1.1.2
 
 ### Features
