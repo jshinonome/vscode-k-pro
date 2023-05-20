@@ -1,4 +1,10 @@
-## 1.1.3
+## 1.1.5
+
+### Bug Fixes
+
+- fix negative time highlight
+
+## 1.1.4
 
 ### Bug Fixes
 
