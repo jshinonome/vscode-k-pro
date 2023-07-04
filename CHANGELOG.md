@@ -1,3 +1,15 @@
+## 1.1.7
+
+### Bug Fixes
+
+- language server: detect inline comment after a newline
+
+## 1.1.6
+
+### Bug Fixes
+
+- run code from terminal
+
 ## 1.1.5
 
 ### Bug Fixes
