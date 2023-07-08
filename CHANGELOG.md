@@ -1,3 +1,9 @@
+## 1.1.8
+
+### Bug Fixes
+
+- language server: rewrite call hierarchy logic
+
 ## 1.1.7
 
 ### Bug Fixes
