@@ -1,3 +1,9 @@
+## 1.1.9
+
+### Bug Fixes
+
+- language server: not recognize start of line
+
 ## 1.1.8
 
 ### Bug Fixes
