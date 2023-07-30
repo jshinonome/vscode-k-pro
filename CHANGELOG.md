@@ -1,3 +1,9 @@
+## 2.0.0
+
+### Features
+
+- support kuki
+
 ## 1.1.9
 
 ### Bug Fixes
