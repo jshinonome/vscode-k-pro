@@ -1,3 +1,9 @@
+## 2.0.3
+
+### Features
+
+- grid: add histogram, heatmap
+
 ## 2.0.0
 
 ### Features
