@@ -1,3 +1,9 @@
+## 2.0.4
+
+### Features
+
+- language server: go to imported file
+
 ## 2.0.3
 
 ### Features
