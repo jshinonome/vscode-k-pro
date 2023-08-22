@@ -1,3 +1,9 @@
+## 2.0.5
+
+### Features
+
+- support kuki built in functions
+
 ## 2.0.4
 
 ### Features
