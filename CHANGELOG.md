@@ -1,3 +1,9 @@
+## 2.0.7
+
+### Features
+
+- update dependencies
+
 ## 2.0.6
 
 ### Features
