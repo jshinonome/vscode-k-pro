@@ -1,3 +1,7 @@
+## 2.0.8
+
+- jkdb: ack sync message, skip async message
+
 ## 2.0.7
 
 ### Features
