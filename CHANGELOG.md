@@ -1,4 +1,17 @@
+## 3.0.0
+
+### Features
+
+- formatter
+- lint
+- add process: migrate to vscode ui, add a preload configuration
+- add discovery server: migrate to vscode ui
+- q notebook: reduce table output rows
+- syntax: allow name.method
+
 ## 2.0.8
+
+### Bug Fixes
 
 - jkdb: ack sync message, skip async message
 
