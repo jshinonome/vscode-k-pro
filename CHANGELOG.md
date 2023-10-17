@@ -1,3 +1,18 @@
+## 3.0.2
+
+### Bug Fixes
+
+- formatter: skip ERROR, handle generic list newline
+- lint: show ERROR, check usage in table assignments
+
+## 3.0.1
+
+### Bug Fixes
+
+- formatter:
+  - format list, dictionary, table
+  - cut line more accurate
+
 ## 3.0.0
 
 ### Features

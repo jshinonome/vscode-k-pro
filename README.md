@@ -27,6 +27,8 @@ This extension provides k and kdb+\q language support:
   - grid powered by [ag-grid-community](https://www.ag-grid.com/) & [plotly](https://plotly.com/javascript/)
   - visualization powered by [perspective](https://perspective.finos.org/)
 - language server powered by [tree-sitter](https://tree-sitter.github.io/tree-sitter/)
+  - **lint**
+  - **formatter**
   - rename symbol (F2)
   - go to definition (F12)
   - go to reference (Shift+F12)
