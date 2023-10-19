@@ -1,3 +1,9 @@
+## 3.0.4
+
+### Features
+
+- lint: detect no reachable code
+
 ## 3.0.2
 
 ### Bug Fixes
