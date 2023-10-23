@@ -1,3 +1,23 @@
+## 3.0.7
+
+### Bug Fixes
+
+- language server: signature help
+
+- formatter: indent
+
+- lint
+  - detect length mismatch for dictionaries
+  - support functional update
+
+## 3.0.5
+
+### Features
+
+- lint
+  - detect length mismatch for dictionaries
+  - support functional update
+
 ## 3.0.4
 
 ### Features
