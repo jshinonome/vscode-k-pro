@@ -1,3 +1,11 @@
+## 3.1.0
+
+### Bug Fixes
+
+- lint
+  - allow k operator in list
+  - remove diagnostics when close file
+
 ## 3.0.7
 
 ### Bug Fixes
