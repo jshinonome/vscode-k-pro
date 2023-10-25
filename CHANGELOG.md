@@ -1,3 +1,9 @@
+## 3.1.1
+
+### Changes
+
+- formatter: add more spaces
+
 ## 3.1.0
 
 ### Bug Fixes
