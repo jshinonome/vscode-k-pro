@@ -1,3 +1,9 @@
+## 3.1.2
+
+### Bug Fixes
+
+- lint: projection null
+
 ## 3.1.1
 
 ### Changes
