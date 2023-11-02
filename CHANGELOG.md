@@ -1,3 +1,10 @@
+## 3.1.3
+
+### Bug Fixes
+
+- formatter: stop inserting space before "-" when it is adjacent to the previous expression
+- notebook: ignore last semicolon
+
 ## 3.1.2
 
 ### Bug Fixes
