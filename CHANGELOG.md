@@ -1,3 +1,7 @@
+## 3.1.4
+
+- formatter: stop formatting undefine
+
 ## 3.1.3
 
 ### Bug Fixes
