@@ -1,4 +1,13 @@
+## 3.1.5
+
+### Changes
+
+- insert comment line if over 80 chars
+- comment uses two slashes
+
 ## 3.1.4
+
+### Bug Fixes
 
 - formatter: stop formatting undefine
 
