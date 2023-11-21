@@ -1,3 +1,9 @@
+## 3.1.6
+
+### Bug Fixes
+
+- q lang server: add k-pro-ignore to skip formatting
+
 ## 3.1.5
 
 ### Changes
