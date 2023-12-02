@@ -1,3 +1,11 @@
+## 3.1.7
+
+### Bug Fixes
+
+- q lang server
+  - fix a format bug
+  - analyze kuki q source codes
+
 ## 3.1.6
 
 ### Bug Fixes
