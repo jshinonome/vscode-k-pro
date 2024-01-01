@@ -1,3 +1,13 @@
+## 3.1.8
+
+### Features
+
+- q lang server: add .Q.fpn
+
+### Changes
+
+- add process: async preload source code
+
 ## 3.1.7
 
 ### Bug Fixes
