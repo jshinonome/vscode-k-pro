@@ -1,3 +1,19 @@
+## 3.2.0
+
+### Bug Fixes
+
+- q lang server: not insert semicolon for system command
+
+### Changes
+
+- q lang server: better error message for missing "from"
+
+## 3.1.9
+
+### Changes
+
+- q lang server: remove function name from signature help
+
 ## 3.1.8
 
 ### Features
