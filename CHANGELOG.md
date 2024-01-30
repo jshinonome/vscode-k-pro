@@ -1,3 +1,9 @@
+## 3.2.1
+
+### Bug Fixes
+
+- q lang server: reanalyze active editor's document
+
 ## 3.2.0
 
 ### Bug Fixes
