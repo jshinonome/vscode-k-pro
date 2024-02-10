@@ -1,3 +1,14 @@
+## 3.3.0
+
+### Features
+
+- q notebook: add chart in grid/virtualization mode
+
+### Bug Fixes
+
+- q notebook: allow null return
+- grid: enable click to download chart
+
 ## 3.2.1
 
 ### Bug Fixes
