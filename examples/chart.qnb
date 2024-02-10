@@ -1,0 +1,26 @@
+[
+  {
+    "kind": 2,
+    "language": "q",
+    "value": "// @chart lines\n([]\n  date: .z.D + til 1000000;\n  price0: sums -0.5 + 1000000?1.0;\n  price1: sums -0.5 + 1000000?1.0;\n  price2: sums -0.5 + 1000000?1.0;\n  price3: sums -0.5 + 1000000?1.0\n );\n",
+    "outputs": []
+  },
+  {
+    "kind": 2,
+    "language": "q",
+    "value": "// @chart histogram\n// @height 400\n// @width 900\n// @title norm_distribution_histogram\n// @barmode stack\npi: acos -1;\nnx: {\n  abs (x > 0) - (exp[-0.5 * x * x] % sqrt 2 * pi) * t * .31938153 + t * -0.356563782 + t *\n    1.781477937 + t *-1.821255978 + 1.330274429 * t: 1 % 1 + .2316419 * abs x\n };\nnor: {\n  $[\n    x = 2 * n: x div 2;\n      raze sqrt[-2 * log n?1f] */: (sin; cos) @\\: (2 * pi) * n?1f;\n      -1 _ .z.s 1 + x\n  ]\n };\n([]rand0: nor 1000000; rand1: nor 1000000);",
+    "outputs": []
+  },
+  {
+    "kind": 2,
+    "language": "q",
+    "value": "// @chart scatter\n// @height 400\n// @width 900\n// @title round_scatter\nnums: til 1000;\n([]x: nums * sin nums % 3.1415926; y: nums * cos nums % 3.1415926)",
+    "outputs": []
+  },
+  {
+    "kind": 2,
+    "language": "q",
+    "value": "// @chart bar\n// @height 500\n// @width 900\n([]time: .z.D + 09:00 + 00:01 * til 360; qty: (360?5) * (til 180) , reverse til 180);",
+    "outputs": []
+  }
+]
