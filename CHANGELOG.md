@@ -2,7 +2,7 @@
 
 ### Features
 
-- q notebook: add chart in grid/virtualization mode
+- q notebook: add chart in grid/Visualization mode
 
 ### Bug Fixes
 

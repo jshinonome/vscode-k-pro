@@ -80,6 +80,18 @@ Files with postfix \*.qnb are using notebook feature. There are 2 output mode fo
 - Grid -> notebook html
 - Visualization -> notebook html
 
+### Chart
+
+Enable Grid or Visualization mode, insert `// @chart lines` to a q cell as the first comment and execute.
+
+Limitations:
+
+- use the first non-number column as label
+- support up to 9 series in line/bar/histogram chart
+- support up to 4 pair of series in scatter chart
+
+> see examples here, [chart.qnb](examples/chart.qnb)
+
 ## Panel
 
 ### Processes
