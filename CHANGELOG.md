@@ -1,3 +1,17 @@
+## 3.3.3
+
+### Feature
+
+- q lang server
+  - // k-pro-ignore-linter: ignore linter for the following block of code
+  - // k-pro-ignore-formatter: ignore formatter for the following block of code
+
+## 3.3.2
+
+### Feature
+
+- q notebook: allow @chart/grid/console to overwrite query mode
+
 ## 3.3.0
 
 ### Features

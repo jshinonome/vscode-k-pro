@@ -27,7 +27,7 @@ This extension provides k and kdb+\q language support:
   - grid powered by [ag-grid-community](https://www.ag-grid.com/) & [plotly](https://plotly.com/javascript/)
   - visualization powered by [perspective](https://perspective.finos.org/)
 - language server powered by [tree-sitter](https://tree-sitter.github.io/tree-sitter/)
-  - **lint**
+  - **linter**
   - **formatter**
   - rename symbol (F2)
   - go to definition (F12)
@@ -71,6 +71,11 @@ See the [change log](https://github.com/jshinonome/vscode-k-pro/blob/master/CHAN
 ## k-pro Language Server
 
 The offline language server will analyze q and k source files in all 'src' folder. To increase precision, please insert ';' to indicated end of statement if necessary.
+
+### linter and formatter
+
+- `// k-pro-ignore-linter`: ignore linter for the following block of code
+- `// k-pro-ignore-formatter`: ignore formatter for the following block of code
 
 ## q Notebook
 
@@ -137,10 +142,6 @@ Output console to an output channel. Configure `Console Size for Output` to chan
 ### Connect to Process
 
 Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> and call `k-pro: Connect to Process` to connect to a process.
-
-## Formatter
-
-Append space to `},],)` by formatting the file. Turn on `Editor: Format On Save` to automatically append space.
 
 ## Shortcuts
 

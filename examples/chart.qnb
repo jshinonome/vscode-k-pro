@@ -22,5 +22,17 @@
     "language": "q",
     "value": "// @chart bar\n// @height 500\n// @width 900\n([]time: .z.D + 09:00 + 00:01 * til 360; qty: (360?5) * (til 180) , reverse til 180);",
     "outputs": []
+  },
+  {
+    "kind": 2,
+    "language": "q",
+    "value": "// @grid 1000\n([]time: .z.D + 09:00 + 00:01 * til 360; qty: (360?5) * (til 180) , reverse til 180);",
+    "outputs": []
+  },
+  {
+    "kind": 2,
+    "language": "q",
+    "value": "// @console\n([]time: .z.D + 09:00 + 00:01 * til 360; qty: (360?5) * (til 180) , reverse til 180);",
+    "outputs": []
   }
 ]
