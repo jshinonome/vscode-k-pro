@@ -1,3 +1,9 @@
+## 3.4.1
+
+### Changes
+
+- q lang server: reduce range of unexpected error
+
 ## 3.3.3
 
 ### Feature

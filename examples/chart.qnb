@@ -8,7 +8,7 @@
   {
     "kind": 2,
     "language": "q",
-    "value": "// @chart histogram\n// @height 400\n// @width 900\n// @title norm_distribution_histogram\n// @barmode stack\npi: acos -1;\nnx: {\n  t: 1 % 1 + .2316419 * abs x;\n  abs (x > 0) - (exp[-0.5 * x * x] % sqrt 2 * pi) * t * .31938153 + t * -0.356563782 + t *\n    1.781477937 + t *-1.821255978 + 1.330274429 * t\n };\nnor: {\n  $[\n    x = 2 * n: x div 2;\n      raze sqrt[-2 * log n?1f] */: (sin; cos) @\\: (2 * pi) * n?1f;\n      -1 _ .z.s 1 + x\n  ]\n };\n([]rand0: nor 1000000; rand1: nor 1000000);",
+    "value": "// @chart histogram\n// @height 400\n// @width 900\n// @title norm_distribution_histogram\n// @barmode stack\npi: acos -1;\nnx: {\n  abs (x > 0) - (exp[-0.5 * x * x] % sqrt 2 * pi) * t * .31938153 + t * -0.356563782 + t *\n    1.781477937 + t *-1.821255978 + 1.330274429 * t: 1 % 1 + .2316419 * abs x\n };\nnor: {\n  $[\n    x = 2 * n: x div 2;\n      raze sqrt[-2 * log n?1f] */: (sin; cos) @\\: (2 * pi) * n?1f;\n      -1 _ .z.s 1 + x\n  ]\n };\n([]rand0: nor 1000000; rand1: nor 1000000);",
     "outputs": []
   },
   {
