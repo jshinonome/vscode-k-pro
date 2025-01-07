@@ -1,4 +1,4 @@
-# k Professional
+# q Professional
 
 [![](https://img.shields.io/visual-studio-marketplace/v/jshinonome.vscode-k-pro?labelColor=4a148c&color=9c27b0&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
 [![](https://img.shields.io/visual-studio-marketplace/i/jshinonome.vscode-k-pro?labelColor=4a148c&color=9c27b0&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
@@ -6,7 +6,7 @@
 
 ## Subscription
 
-Purchase a **Subscription** to use **k Professional**.
+Purchase a **Subscription** to use **q Professional**.
 
 - [For Individual - per user, monthly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-90V85129L8192243VMNSGIJA)
 - [For Individual - per user, yearly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-69E14901CW016915KMNSGFHQ)
