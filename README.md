@@ -1,24 +1,10 @@
 # q Professional
 
-[![](https://img.shields.io/visual-studio-marketplace/v/jshinonome.vscode-k-pro?labelColor=4a148c&color=9c27b0&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
-[![](https://img.shields.io/visual-studio-marketplace/i/jshinonome.vscode-k-pro?labelColor=4a148c&color=9c27b0&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
-[![](https://img.shields.io/visual-studio-marketplace/d/jshinonome.vscode-k-pro?labelColor=4a148c&color=9c27b0&style=flat)](https://marketplace.visualstudio.com/items?itemName=jshinonome.vscode-k-pro)
-
-## Subscription
-
-Purchase a **Subscription** to use **q Professional**.
-
-- [For Individual - per user, monthly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-90V85129L8192243VMNSGIJA)
-- [For Individual - per user, yearly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-69E14901CW016915KMNSGFHQ)
-- [For Organization - per user, yearly](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0W0141747V722234NMNSGE2A)
-
-The activation key will be sent by email within 2 business days.
-
 ## Features
 
-This extension provides k and kdb+\q language support:
+This extension provides q and k language support:
 
-- k9 syntaxes
+- k syntaxes
 - q syntaxes
 - q notebook(\*.qnb)
 - processes group by tags
@@ -48,8 +34,8 @@ See the [change log](https://github.com/jshinonome/vscode-k-pro/blob/master/CHAN
 
 ## Configuration
 
-- To configure globally, type <kbd>ctrl</kbd>+<kbd>,</kbd> to open Settings, filter the configuration by `k-pro` and change the following values.
-- To configure for workspace, type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>, call `Preferences: Open Workspace Settings`, filter the configuration by `k-pro` and change the following values.
+- To configure globally, type <kbd>ctrl</kbd>+<kbd>,</kbd> to open Settings, filter the configuration by `q-pro` and change the following values.
+- To configure for workspace, type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>, call `Preferences: Open Workspace Settings`, filter the configuration by `q-pro` and change the following values.
 
 | configuration                             | type    | default value                       | description                                       |
 | ----------------------------------------- | ------- | ----------------------------------- | ------------------------------------------------- |
@@ -123,15 +109,15 @@ Record query histories.
 
 ## Query Mode
 
-Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> and call `k-pro: Switch Query Mode` to switch Query Console.
+Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> and call `q-pro: Switch Query Mode` to switch Query Console.
 
 ### Visualization
 
-Visualization, powered by [perspective](https://perspective.finos.org/), can pivot and virtualize table data. In Visualization mode, only table will be showed in a webview, but other result will still be in output. It will limit to 10000 rows when query a table, click the **flame** in **PROCESSES** panel , or call `k-pro: Toggle Unlimited Query`, to remove 10000 rows limit. Be noted that, Visualization only supports millisecond precision.
+Visualization, powered by [perspective](https://perspective.finos.org/), can pivot and virtualize table data. In Visualization mode, only table will be showed in a webview, but other result will still be in output. It will limit to 10000 rows when query a table, click the **flame** in **PROCESSES** panel , or call `q-pro: Toggle Unlimited Query`, to remove 10000 rows limit. Be noted that, Visualization only supports millisecond precision.
 
 ### Grid
 
-Grid, powered by [ag-grid-community](https://www.ag-grid.com/) and [plotly](https://plotly.com/javascript/), can filter and sort table data. In Grid mode, only table will be showed in a webview, but other result will still be in output. It will limit to 10000 rows when query a table, click the **flame** in **PROCESSES** panel , or call `k-pro: Toggle Unlimited Query`, to remove 10000 rows limit. Grid supports nanosecond precision.
+Grid, powered by [ag-grid-community](https://www.ag-grid.com/) and [plotly](https://plotly.com/javascript/), can filter and sort table data. In Grid mode, only table will be showed in a webview, but other result will still be in output. It will limit to 10000 rows when query a table, click the **flame** in **PROCESSES** panel , or call `q-pro: Toggle Unlimited Query`, to remove 10000 rows limit. Grid supports nanosecond precision.
 
 ### Console(default)
 
@@ -141,7 +127,7 @@ Output console to an output channel. Configure `Console Size for Output` to chan
 
 ### Connect to Process
 
-Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> and call `k-pro: Connect to Process` to connect to a process.
+Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> and call `q-pro: Connect to Process` to connect to a process.
 
 ## Shortcuts
 
@@ -208,4 +194,4 @@ Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>, call `Open Setting(Json)`, a
 ### Special Comment
 
 Querying comment line `/<=> quant,prod,local-1800` will connect to `quant,prod,local-1800`.
-Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>, call `k-pro Insert Active Connection Label` to insert active connection label.
+Type <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>, call `q-pro: Insert Active Connection Label` to insert active connection label.
